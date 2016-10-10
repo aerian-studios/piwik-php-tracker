@@ -1,5 +1,5 @@
 {
-    "name": "piwik/piwik-php-tracker",
+    "name": "aerian-studios/piwik-php-tracker",
     "description": "PHP Client for Piwik Analytics Tracking API",
     "keywords": ["piwik","tracker","analytics"],
     "homepage": "http://piwik.org",
