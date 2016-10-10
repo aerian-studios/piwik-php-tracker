@@ -1510,6 +1510,7 @@ class PiwikTracker
         if (function_exists('curl_init') && function_exists('curl_exec')) {
             $options = array(
                 CURLOPT_URL => $url,
+                CURLOPT_SSL_VERIFYHOST => 0,
                 CURLOPT_USERAGENT => $this->userAgent,
                 CURLOPT_HEADER => true,
                 CURLOPT_TIMEOUT => $this->requestTimeout,
